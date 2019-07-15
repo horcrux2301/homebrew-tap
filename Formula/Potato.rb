@@ -2,14 +2,14 @@
 class Potato < Formula
   desc "Potato is a command line tool which helps you to keep the development configs and settings of your Mac as a programmer safe in your GitHub."
   homepage ""
-  version "0.1.2"
+  version "0.1.4"
 
   if OS.mac?
-    url "https://github.com/horcrux2301/Potato/releases/download/v0.1.2/Potato_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "0eff28d710ef4669c3bbbbf5fe55b212c4204d6e310d5d3d9d68274f5e9c6978"
+    url "https://github.com/horcrux2301/Potato/releases/download/v0.1.4/Potato_0.1.4_Darwin_x86_64.tar.gz"
+    sha256 "02477833565236c43d6317e557a698b4df81512a02c6358233f83fd8775fec45"
   elsif OS.linux?
-    url "https://github.com/horcrux2301/Potato/releases/download/v0.1.2/Potato_0.1.2_Linux_x86_64.tar.gz"
-    sha256 "dc35c7c5020fdc1251884aea791241a9d7318ce11c5b71f58f8e784b7e0bbaab"
+    url "https://github.com/horcrux2301/Potato/releases/download/v0.1.4/Potato_0.1.4_Linux_x86_64.tar.gz"
+    sha256 "bb7157bd478bf7ae0f72b690cf7d57355c54a41f2899834e19994e3a17c3a3f4"
   end
 
   def install
